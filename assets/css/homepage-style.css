@@ -1,0 +1,277 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+}
+
+.logo a {
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    float: left;
+    font-family: 'montserrat';
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+    margin-right: 20px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #5AB2FF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.img1 {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.colom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.colom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'montserrat';
+    color: #5AB2FF;
+    
+}
+
+.colom .deskripsi1 {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.colom h2 {
+    font-family: 'montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #5AB2FF;
+    width: 100%;
+    line-height: 40px;
+}
+.tbl-biru {
+    background-color: #5AB2FF;
+    border-radius: 20px;
+    margin:40px 0px 40px 0px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl-biru:hover {
+    background-color: white;
+    color: #5AB2FF;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.breaker{
+    margin: 100px 0 10px 0;
+    text-align: center;
+    color: white;
+    background-color: #5AB2FF;
+    font-size: 12px;
+}
+
+
+.kolom {
+    display: flex;
+}
+.kolom h2 {
+    line-height: 10px;
+}
+
+.drone {
+    width: 333px;
+    height: auto;
+    margin: 0px 50px 0px 60px;
+}
+
+.iqoo {
+    width: 333px;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+}
+
+.sariawan {
+    width: 333px;
+    height: auto;
+    margin: 0px 60px 0px 50px;
+}
+
+.drone img {
+    width: 333px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.iqoo img  {
+    width: 333px;
+    height: 224px;
+    border-radius: 20px;
+}
+
+.sariawan img {
+    width: 333px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.drone h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.drone h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+} 
+
+.iqoo h2 a  {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.sariawan h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.laptop {
+    width: 333px;
+    height: auto;
+    margin: 0px 50px 0px 60px;
+}
+
+.guru {
+    width: 333px;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+}
+
+.vitc {
+    width: 333px;
+    height: auto;
+    margin: 0px 60px 0px 50px;
+}
+
+.laptop img {
+    width: 333px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.guru img  {
+    width: 333px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.vitc img {
+    width: 333px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.laptop h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.laptop h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+} 
+
+.guru h2 a  {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.vitc h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #5AB2FF;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

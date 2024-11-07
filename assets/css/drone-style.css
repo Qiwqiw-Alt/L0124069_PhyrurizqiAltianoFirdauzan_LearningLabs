@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    
+}
+
+.logo a {
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    float: left;
+    font-family: 'montserrat';
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+    margin-right: 20px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #5AB2FF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+footer {
+    background-color: #5AB2FF;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.awal {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.awal  h1 {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.awal h4 {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    opacity: 50%;
+}
+
+
+.awal img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.isi p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.isi {
+    padding-right: 30px;
+    padding-left: 30px;
+}
